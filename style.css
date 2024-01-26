@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: .5em;
+}
+
+.red {
+    background-color: rgb(255, 76, 76);
+}
+
+.green {
+    background-color: rgb(85, 255, 107);
+}
+
+.blue {
+    background-color: rgb(76, 103, 255);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(255, 241, 112);
+}
+
+.prvni {
+    background-color: rgb(170, 96, 255);
+}
